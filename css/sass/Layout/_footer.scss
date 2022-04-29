@@ -1,0 +1,79 @@
+footer {
+        background-color: $color-tertiary;
+        color: $color-secondary;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    .footer-section {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 50px;
+        .footer-groupe {
+            display: flex;
+            flex-direction: column;
+            margin-left: 60px;
+            margin-top: 50px;
+            p {
+                width: 483px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 110%;
+            }
+        }
+
+        a {
+            color: $color-secondary;
+            font-family: 'Calibre';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 141%;
+            text-transform: uppercase;
+        }
+
+        .footer-liste {
+            display: flex;
+            flex-direction: row;
+            margin: 10px;
+            .footer-liste1 {
+                display: flex;
+                flex-direction: column;
+                margin: 20px 20px 0 200px;
+                align-items:flex-start;
+                justify-content:flex-start;
+                a {
+                    margin-top: 40px ;
+                }
+            }
+        }
+    }
+    .explorer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 60px;
+        h3 {
+            margin-right: 30px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 141%;
+        }
+
+        .fa-arrow-right {
+            margin-right: 30px;
+        }
+        a {
+            color: $color-secondary;
+            font-family: 'Calibre';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 141%;
+            text-transform: uppercase;
+            margin-right: 30px;
+        }
+    }
+}

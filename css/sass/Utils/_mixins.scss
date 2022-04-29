@@ -1,0 +1,183 @@
+@mixin base-shadow {
+    box-shadow: 0px 4px 5px $color-greymiddle;
+}
+@mixin zoom2 {
+  transform: scale(1.02);
+  transition: all 100ms;
+  opacity: 0.9;
+  box-shadow: 0px 4px 5px $color-greydark;  
+  cursor: pointer; 
+}
+@mixin button {
+  background: linear-gradient(180deg, rgba(226,111,218,1) 19%, rgba(156,89,220,1) 63%);     
+  font-size: 15px ;
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: none;
+  margin-top: 15px; 
+  color: $color-white;
+  margin-bottom: 20px;
+  @include base-shadow;
+      &:hover {
+      @include zoom2;    
+  }
+  @media screen and  (min-width: $mobile) {
+  font-size: 20px;   
+}
+}
+
+@mixin button-white {
+  background: $color-secondary;
+  border: 1px solid #181818;
+  box-sizing: border-box;
+  border-radius: 30px;
+  width: 179px;
+  height: 52px; 
+  font-size: 17px;
+  color: $color-tertiary;
+  margin: 15px; 
+  font-family: 'Calibre';
+  font-style: normal;
+  font-weight: 700;
+  box-shadow: 
+  5px 5px  $color-tertiary;
+  &:active{
+    animation: clickbutton 0.1s; 
+    animation-fill-mode: forwards;
+}
+}
+
+@mixin button-white-bordwhite {
+  background: $color-secondary;
+  border: 1px solid #181818;
+  box-sizing: border-box;
+  border-radius: 30px;
+  width: 200px;
+  height: 52px; 
+  font-size: 17px;
+  color: $color-tertiary;
+  margin: 15px; 
+  font-family: 'Calibre';
+  font-style: normal;
+  font-weight: 700;
+  box-shadow: 
+  1px 1px  $color-tertiary,
+  2px 2px  $color-tertiary,
+  3px 3px  $color-tertiary,
+  4px 4px  $color-tertiary,
+  5px 5px 0.5px $color-secondary;
+  &:active{
+    animation: clickbutton 0.1s; 
+    animation-fill-mode: forwards;
+}
+}
+
+@mixin button-black-bordwhite {
+  background: $color-tertiary;
+  border: 1px solid $color-secondary;
+  box-sizing: border-box;
+  border-radius: 30px;
+  width: 235px;
+  height: 52px; 
+  font-size: 17px;
+  color: $color-secondary;
+  margin: 15px; 
+  font-family: 'Calibre';
+  font-style: normal;
+  font-weight: 700;
+  box-shadow: 
+  1px 1px  $color-secondary,
+  2px 2px  $color-secondary,
+  3px 3px  $color-secondary,
+  4px 4px  $color-secondary,
+  5px 5px 0.5px $color-tertiary;
+  &:active{
+    animation: clickbutton 0.1s; 
+    animation-fill-mode: forwards;
+}
+}
+
+@mixin button-transparent-bordwhite {
+  background: transparent;
+  border: 1px solid $color-secondary;
+  box-sizing: border-box;
+  border-radius: 30px;
+  width: 150px;
+  height: 52px; 
+  font-size: 17px;
+  color: $color-secondary;
+  
+  font-family: 'Calibre';
+  font-style: normal;
+  font-weight: 700;
+  box-shadow: 
+  1px 1px  0 transparent,
+  2px 2px  0 transparent,
+  3px 3px 0 transparent,
+  4px 4px  0 transparent,
+  5px 5px 0.5px $color-secondary;
+  &:active{
+    animation: clickbutton 0.1s; 
+    animation-fill-mode: forwards;
+}
+}
+
+@mixin button-black {
+  background: $color-tertiary;
+  border: 1px solid #181818;
+  box-sizing: border-box;
+  border-radius: 30px;
+  width: 179px;
+  height: 52px; 
+  font-size: 17px;
+  color: $color-secondary;
+  margin: 15px; 
+  font-family: 'Calibre';
+  font-style: normal;
+  font-weight: 700;
+  box-shadow: 
+  1px 1px  $color-secondary,
+  2px 2px  $color-secondary,
+  3px 3px  $color-secondary,
+  4px 4px  $color-secondary,
+  5px 5px 0.5px $color-tertiary;
+  &:active{
+    animation: clickbutton 0.1s; 
+    animation-fill-mode: forwards;
+}
+}
+
+@mixin button-grey {
+  background: #F2F2F4;
+  border: 1px solid #181818;
+  box-sizing: border-box;
+  border-radius: 30px;
+  width: 123px;
+  height: 55px; 
+  font-size: 17px;
+  color: $color-tertiary;
+  margin: 15px; 
+  font-family: 'Calibre';
+  font-style: normal;
+  font-weight: 700;
+  box-shadow: 
+    5px 5px  $color-tertiary;
+    &:active{
+      animation: clickbutton 0.1s; 
+      animation-fill-mode: forwards;
+  }
+}
+
+
+@mixin heartsolid {
+    color: transparent;
+    background: linear-gradient(360deg, rgba(226,111,218,1) 0%, rgba(156,89,220,1) 41%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    &:hover {
+        opacity: 1;
+        transform: scale(1.02);
+    }    
+  }

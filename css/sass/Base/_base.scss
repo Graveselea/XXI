@@ -1,0 +1,37 @@
+h1, h2, h3  {
+    font-family: 'Roslindale';
+}    
+
+p  {
+        font-family: 'Calibre';
+        text-transform: uppercase;
+        font-style: normal;
+        font-size: 17px;
+        line-height: 141%;
+}    
+
+body {
+    width:100%;
+    min-width: 600px;
+    max-width: 2000px;
+    height: auto;
+    margin: 0;
+    overflow-x:hidden;
+}
+
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+*,
+body,
+::before,
+::after {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+

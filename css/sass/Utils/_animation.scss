@@ -1,0 +1,76 @@
+@keyframes opacity-1 {
+    from {
+        transform: translate3d(0,100px,0);
+    }
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+  }
+@keyframes rotate1 {
+    from {
+        transform : rotate(0) ;
+        opacity: 1;
+    }
+    to {
+        transform : rotate(-10deg) ;
+        opacity: 0.5;
+    }
+  }
+
+  @keyframes bars {
+    0% {
+        transform: scaleY(0.5);
+        
+    }
+    100% {
+        transform: scaleY(1.0);
+    }
+}
+
+@keyframes disappear {
+    to {
+        visibility: hidden;
+    }
+}
+
+@keyframes clickbutton {
+    to {
+        transform: translate(4px, 4px);
+        box-shadow: 2px 2px  ;
+    }
+}
+
+@keyframes menuactive {
+    0% {
+        transform: scaleX(0);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.btn {
+    &:active {
+        & > .progress__bar {
+            animation: progress-bar 1000ms;
+        }
+    }
+}
+@keyframes apparitionimage {
+    0% {
+        clip-path: inset(0% 5% 0% 5% round 10%);
+    }
+    17% {
+        clip-path: inset(0% 4% 0% 4% round 8%);
+    }
+    24% {
+        clip-path: inset(0% 3% 0% 3% round 6%);
+    }
+    46% {
+        clip-path: inset(0% 2% 0% 2% round 4%);
+    }
+    100% {
+        clip-path: inset(0% 1% 0% 0% round 0%);
+    }
+}

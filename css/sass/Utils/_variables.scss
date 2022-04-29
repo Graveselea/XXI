@@ -1,0 +1,25 @@
+/* media */
+
+$largedesktop : 1600px;
+$desktop : 1599px;
+$tablet : 959px;
+$mobile : 767px;
+
+/* color */
+
+$color-primary : #FFE631;
+$color-secondary : #FFFFFF;
+$color-tertiary : #181818;
+
+
+/* animation menu */
+
+$num-card-menu: 10;
+$anim-dur-menu: 500ms;
+$anim-delay-menu: $anim-dur-menu / $num-card-menu;
+
+/* animation loader */
+
+$num-bars : 8;
+$anim-dur-bars : 1000ms;
+$anim-delay-bars : $anim-dur-bars / $num-bars;

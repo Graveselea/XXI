@@ -1,0 +1,71 @@
+header {
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    flex-wrap: nowrap;
+    width: 100%;
+    nav {
+        display: flex;
+        flex-direction: row;
+        margin-top: 3%;  
+    }
+    .navbar {
+        margin-left: 20%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    a {
+        font-family: 'Calibre';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 141%;
+        color: #181818;
+        margin-right: 100px;
+        text-overflow: clip;
+        width: 120px;
+        }    
+
+    .fa-magnifying-glass {
+        color: #181818;        
+        left: 13.72%;
+        right: 12.5%;
+        top: 12.5%;
+        bottom: 13.72%;
+        margin: 0 20px 0 50px;
+        transform: rotateY(180deg);
+    }
+
+    .fa-user {
+        left: 12.5%;
+        right: 12.5%;
+        top: 8.33%;
+        bottom: 8.33%;
+        color: #181818;
+    }
+
+    button {
+       @include button-grey;
+       margin-top:-50px;
+
+    }   
+    #logo21 {
+    width: 171px;
+    height: 140px;
+    margin-top: -20px;
+    margin-left: 100px;
+    }
+
+
+}
+
+#menunumero {
+    display: flex;
+    flex-direction: row;
+    margin-top: -250px;
+}
+
+
