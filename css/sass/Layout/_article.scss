@@ -1,17 +1,12 @@
 .articles {
-position: relative;
-left: 0px;
-top: 0px;
-background: #FFFFFF;
-margin-top: 200px;
 margin-left: 100px;
+margin-top: 200px;
 width: 100%;
+height: auto;
   img:hover {
         animation: rotate1 1s ease-in-out;
         animation-fill-mode: forwards;
     }
-
-
 
   .articles-titres {
     font-style: normal;
@@ -60,21 +55,23 @@ width: 100%;
         height: 284px;
     }
     .couv {
-        display: grid;
-        height: 1500px;
-        grid-template-areas: "couv1 couv2 couv2"
-        "couv3 couv4 couv5";
+        display: flex;
+        flex-direction: column;
         width: 100%;
-        grid-template-columns: 500PX 250PX 250PX;
-        grid-template-rows: 500PX 1fr;
-        grid-column-gap: 100px;
-        grid-row-gap: 200px; 
-        
-        margin-right: 50px;
+
+        .ligne1article {
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+        }
+        .ligne2article {
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+        }
       }
     
       .couv1 {
-        grid-area: couv1;
         h3, 
         p {
             width: 486px;
@@ -83,9 +80,8 @@ width: 100%;
         }
       }
       .couv2 {
-        grid-area: couv2;
         margin-top: 50px;
-        margin-left: 100px;
+        margin-left: 200px;
         h3, 
         p {
             width: 379px;
@@ -93,7 +89,6 @@ width: 100%;
       }
 
       .couv3 {
-        grid-area: couv3;
         margin-left: 40px;
         margin-top: 150px;
         h3, 
@@ -103,7 +98,7 @@ width: 100%;
         }
       }
       .couv4 {
-        grid-area: couv4;
+        margin-left: 100px;
         margin-top: -100px;
         margin-right: 150px;
         h3, 
@@ -112,7 +107,6 @@ width: 100%;
         }
       }
       .couv5 {
-        grid-area: couv5;
         margin-top: 5px;
         margin-left: 50px;
         h3, 
@@ -120,4 +114,86 @@ width: 100%;
             width: 270px;
         }
       }
+}
+
+@media screen and  (max-width: $mobile) {
+  .articles {      
+    margin-top: -20px; 
+      .articles-titres {
+        font-size: 30px;
+        margin-left: -40px;
+      }
+      .couv {
+        .ligne1article {
+          display: flex;
+          flex-direction: column;
+          margin-left: -80px;
+          justify-content: center;
+          img {
+            width: 70%;
+            height: auto;
+          }
+          h3 {
+            font-size: 30px;
+            width: 100%;
+            padding-right: 5px;
+            padding-left: 5px;
+          }
+          p {
+            font-size: 14px;
+            width: 100%;
+            padding-right: 5px;
+            padding-left: 5px;
+          }
+          .couv2 {
+          margin-top: 50px;
+          margin-left: -31px;
+          text-align: right;
+          width: 100%;
+          padding-left: 20px;
+        }
+      }
+        .ligne2article {
+          display: flex;
+          flex-direction: column;
+          margin-left: -80px;
+          justify-content: center;
+          img {
+            width: 70%;
+            height: auto;
+          }            
+          h3 {
+            font-size: 30px;
+            width: 100%;
+            padding-right: 5px;
+            padding-left: 5px;
+            }
+          
+          p {
+            font-size: 14px;
+            width: 100%;
+            padding-right: 5px;
+            padding-left: 5px;
+          }
+        .couv3 {
+          margin-top: 50px;
+          margin-left: 0px;
+        }
+
+        .couv4 {
+          margin-top: 50px;
+          margin-left: -35px;
+          text-align: right;
+          width: 100%;
+          padding-left: 20px;
+        }
+
+        .couv5 {
+          margin-top: 50px;
+          margin-left: 0px;
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
 }

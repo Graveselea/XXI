@@ -1,10 +1,11 @@
 .fondyellow {
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
     background-color: $color-primary;
     width: 100%;
-    margin-top: -300px;
+    height: auto;
+    margin-top: -303px;
+    flex-wrap: wrap;
     .numero57img {
         opacity: 0;
         animation-name: opacity-1;
@@ -14,14 +15,11 @@
         box-shadow: 2px 2px 5px grey;
     }
     .numero57 {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 70px;
-    line-height: 116%;
     margin-bottom: 20px;
     }
     .fondyellow-column {
-        padding: 150px;
+        padding: 100px;
+        margin-top: 10%;
     }
     h2 {
     color: #181818;
@@ -38,7 +36,7 @@
     font-weight: 700;
     font-size: 17px;
     line-height: 141%;
-    margin-top: 180px;
+    margin-top: 150px;
     margin-bottom: 20px;
     }
 
@@ -46,15 +44,11 @@
         position: relative;
         width: 710px;
         height: 498px;
-        right: 0px;
-        top: 46px;
+        top: 400px;
     }
     p {
-        position: static;
         width: 442px;
         height: 79px;
-        left: 0px;
-        top: 145px;
         margin-top: 20px;
     }
     .fondyellow-button { 
@@ -67,3 +61,68 @@
         }
     }
 }
+
+@media screen and  (min-width: $mobile) and (max-width: $tablet) {
+    .fondyellow {
+        display: flex;
+        flex-direction: column;
+        img {
+            top: 40px;
+            left: 50px;
+        }
+    }
+}
+
+@media screen and  (min-width: $tablet) and (max-width: $desktop) {
+    .fondyellow {
+        display: flex;
+        flex-direction: column;
+        img {
+            top: 40px;
+            left: 50px;
+        }
+    }
+}
+
+@media screen and  (max-width: $mobile) {
+
+    .fondyellow {
+        display: flex;
+        flex-direction: column;
+        margin-top: -403px;
+        img {
+            top: 40px;
+            left: 40px;
+            width: 80%;
+            height: auto;
+        }
+        .fondyellow-column {
+            padding: 16px;
+            margin-top: 70%;
+
+         }
+            h2 {
+            font-size: 50px;
+        }  
+            p {
+                font-size: 14px;
+                width: 100%;
+                
+            }
+
+        .fondyellow-button {
+            display: flex;
+            flex-direction: row;
+            .buttonwhite {
+            width: 50%;
+            font-size: 14px;
+            }
+            .buttonblack {
+                width: 50%;
+                font-size: 14px;
+                }
+        }
+        }
+    }
+
+

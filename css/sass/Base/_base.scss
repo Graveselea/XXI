@@ -10,9 +10,12 @@ p  {
     line-height: 141%;
 }    
 
-body {
+body,
+html {
     width:100%;
     margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 
@@ -23,11 +26,14 @@ a {
 
 *,
 body,
+html,
 ::before,
 ::after {
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
+
 
 
 

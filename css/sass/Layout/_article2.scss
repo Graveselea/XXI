@@ -1,11 +1,23 @@
 .articles2 {
-  position: relative;
-  width: 100%;
-  left: 0px;
-  top: 0px;
   background: #FFFFFF;
   margin-top: 200px;
-  margin-left: 60px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+      .ligne1article2 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+      }
+      .ligne2article2 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+      }
+
 
   img:hover {
     animation: rotate1 1s ease-in-out;
@@ -40,60 +52,138 @@
     height: 284px;
   }
 
-  .articles2-grid {
-      display: grid;
-      grid-template-areas: "art1 art2 art3"
-      "art4 art5 art6";
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
-      grid-column-gap: 100px;
-      grid-row-gap: 100px; 
-    }
     
     .art1 {
-      grid-area: art1;
       h3, 
       p {
           width: 270px;
       }
     }
     .art2 {
-      grid-area: art2;
       margin-top: 100px;
-      margin-left: -60px;
+      margin-left: 120px;
       h3, 
       p {
           width: 379px;
       }
     }
     .art3 {
-      grid-area: art3;
+      margin-left: 160px;
       h3, 
       p {
           width: 379px;
       }
     }
     .art4 {
-      grid-area: art4;
-      margin-top: -200px;
+      margin-top: 20px;
       h3, 
       p {
           width: 379px;
       }
     }
     .art5 {
-      grid-area: art5;
+      margin-left: 120px;
+      margin-top: 170px;
         h3, 
         p {
             width: 379px;
         }
     }
     .art6 {
-      grid-area: art6;
-      margin-top: -200px;
+      margin-left: 160px;
       h3, 
       p {
           width: 270px;
       }
     }
 }
+
+@media screen and  (max-width: $mobile) {
+  .articles2 {      
+
+        .ligne1article2 {
+          display: flex;
+          flex-direction: column;
+          margin-left: -80px;
+          justify-content: center;
+          img {
+            width: 70%;
+            height: auto;
+          }
+          h3 {
+            font-size: 30px;
+            width: 100%;
+            padding-right: 5px;
+            padding-left: 5px;
+          }
+          p {
+            font-size: 14px;
+            width: 100%;
+            padding-right: 5px;
+            padding-left: 5px;
+          }
+
+          .art1 {
+            margin-top: -140px;
+            padding-right: 50px;
+          }
+          .art2 {
+          margin-top: 50px;
+          margin-left: -31px;
+          text-align: right;
+          width: 100%;
+          padding-left: 25px;
+        }
+          .art3 {
+            margin-top: 30px;
+            margin-left: 0px;
+            padding-right: 50px;
+          }
+      }
+        .ligne2article2 {
+          display: flex;
+          flex-direction: column;
+          margin-left: -80px;
+          justify-content: center;
+          img {
+            width: 70%;
+            height: auto;
+          }            
+          h3 {
+            font-size: 30px;
+            width: 100%;
+            padding-right: 5px;
+            padding-left: 5px;
+            }
+          
+          p {
+            font-size: 14px;
+            width: 100%;
+            padding-right: 5px;
+            padding-left: 5px;
+          }
+        .art4 {
+          margin-top: 50px;
+          margin-left: -31px;
+          text-align: right;
+          width: 100%;
+          padding-left: 25px;
+        }
+
+        .art6 {
+          margin-top: 50px;
+          margin-left: -35px;
+          text-align: right;
+          width: 100%;
+          padding-left: 20px;
+        }
+
+        .art5 {
+          margin-top: 50px;
+          margin-left: 0px;
+          margin-bottom: 40px;
+          padding-right: 40px;
+        }
+      }
+    }
+  }

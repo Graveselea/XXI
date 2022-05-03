@@ -1,6 +1,5 @@
 .footerindex {
         background-color: $color-tertiary;
-       
         width: 100%;
         height: auto;
         display: flex;
@@ -9,6 +8,8 @@
         display: flex;
         flex-direction: row;
         margin-bottom: 50px;
+        margin-left: 40px;
+
         .footer-groupe {
             display: flex;
             flex-direction: column;
@@ -51,10 +52,14 @@
         }
     }
     .explorer {
+        position: fixed;
+        top: 95%;
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin-left: 50px;
+        padding-left: 100px;
+        background-color: $color-tertiary;
+        width: 100%;
         h3 {
             margin-right: 30px;
             font-style: normal;
@@ -68,6 +73,10 @@
             margin-right: 30px;
             color: $color-secondary;
         }
+
+        .fa-arrow-down-long {
+            visibility: hidden;
+        }
         a {
             color: $color-secondary;
             font-family: 'Calibre';
@@ -78,5 +87,68 @@
             text-transform: uppercase;
             padding-right: 50px;
         }
+    }
+}
+
+@media screen and  (max-width: $mobile) {
+    .footerindex { 
+        display: flex;
+        flex-direction: column;
+        .footer-section {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        .footer-groupe {
+            display: flex;
+            flex-direction: column;
+            margin-left: 20px;  
+            margin-right: 20px;
+            margin-bottom: -52px;
+            p {
+               font-size: 15px;  
+               width: 100%;
+            }
+            .footer-logo {
+                display: flex;
+                flex-direction: row;
+            }
+        }
+        .footer-liste {
+            display: flex;
+            flex-direction: column;
+            margin-left: -179px;
+            margin-top: 50px;
+            .footer-liste1 {
+                margin-top: 0px;
+                align-items: center;
+                a {
+                    margin-top: 12px;
+                }
+            }
+        }
+      }
+      .explorer {
+          padding-left: 10px;
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          align-items: end;
+          margin-bottom: 30px;
+          .fa-arrow-down-long {
+            visibility: visible;
+            color: $color-secondary;
+            margin-right: 28px;
+            margin-top: -24px;
+        }
+          i {
+              visibility: hidden;
+          }
+          h3 {
+              margin-bottom: 15px;
+          }
+          a {
+              padding-right: 30px;
+          }
+      }
     }
 }

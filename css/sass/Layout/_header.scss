@@ -1,59 +1,27 @@
-header {
-    position:relative;
+header {  
     display: flex;
     flex-direction: row;
-    z-index: 1;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    height: auto;
     width: 100%;
-    padding-top: 30px;
     nav {
         display: flex;
         flex-direction: row;  
-        width: 100%;
         justify-content: space-around;
         align-items: center;
-
+        width: 100%;
+        flex-wrap: wrap;
     }
     .navbar {
-        margin-left: 20%;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        .listenumero {
-            display: flex;
-            flex-direction: column-reverse;
-            margin-top: -100px;
-            overflow: hidden;
-            align-items: center;
-            .lesnumeros {
-                &:hover {
-                    + #menunumero {
-                        bottom: 700px;
-                        
-                    }
-                    + .navbar {
-                        position: relative;
-                        top: 300px;
-                    }
-                }
-            }
-            #menunumero {
-            display: flex;
-            flex-direction: row;
-            position: fixed;
-            bottom: 1000px;
-            background-color: #181818;
-            color: white;
-            width: 100%;
-            height: 300px;
-            align-items: center;
-            }
-        }
+        align-items: center;
+        flex-wrap: wrap;
     }
 
     .sabonner {
         display: flex;
-        flex-direction: row;
         align-items: center;
     }
 
@@ -89,19 +57,85 @@ header {
 
     button {
        @include button-grey;
-      margin-top: 0px;
-
     }   
     #logo21 {
     width: 171px;
     height: 140px;
-    margin-left: 100px;
-    }
     
-
-
+    }
 }
 
 
 
+@media screen and  (min-width: $mobile) and (max-width: $tablet) {
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        .navbar {
+        display: flex;
+        flex-direction: column;
+       margin-left: 60px;
+       margin-top: 30px;
+
+       .sabonner {
+           margin-left: -185px;
+       }
+       .navbarlien {
+        display: flex;
+        flex-direction: column;       
+        text-align: right;
+       }
+        }
+    }
+}
+
+@media screen and  (min-width: $tablet) and (max-width: $desktop) {
+        .fonctionnement {   
+        h2 {
+            font-size: 30px;
+        }
+        li {
+            font-size: 20px;
+        }
+        ol {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@media screen and  (max-width: $mobile) {
+    header {       
+        #logo21 {
+            margin-left: -71px;
+            margin-bottom: -50px;
+            }
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        .navbar {
+        display: flex;
+        flex-direction: column;
+       margin-left: 60px;
+       margin-top: -80px;
+
+       .sabonner {
+           margin-left: 100px;
+           .buttonpagearticle {
+            width: 100%;
+            font-size: 14px;
+            }
+       }
+       .navbarlien {
+        display: flex;
+        flex-direction: column;       
+        text-align: right;
+        margin-left: 260px;
+       }        
+    }
+
+}
+}
 

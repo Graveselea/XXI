@@ -1,14 +1,12 @@
 .abonnement {
-    
     background-color: $color-tertiary;
     display: flex;
     flex-direction: column;
-    padding-bottom: 30px;
-    align-items: center;
-    justify-content: center;        
+    align-items: center;       
     padding-top: 70px;
     padding-bottom: 70px;
     width: 100%;
+    height: auto;
     .abonnementexpl {
         display: flex;
         flex-direction: column;
@@ -45,3 +43,38 @@
             @include button-black-bordwhite;
             }
         }
+
+@media screen and  (max-width: $mobile) {
+    .abonnement {
+        display: flex;
+        flex-direction: column;
+        .abonnement-button {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            .buttonwhite {
+            font-size: 14px;
+            width: 80%;
+            }
+            .buttonblack {
+                font-size: 14px;
+                width: 90%;
+                }
+
+        }
+        .abonnementexpl {
+            h2 {
+            font-size: 25px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            
+        }            
+        .abonnement-expl-ligne {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}
