@@ -95,35 +95,36 @@ header {
   flex-direction: row;
   z-index: 1;
   flex-wrap: nowrap;
-  width: 100%; }
-  /* line 8, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
+  width: 100%;
+  padding-top: 30px; }
+  /* line 9, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
   header nav {
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: space-around;
     align-items: center; }
-  /* line 16, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
+  /* line 17, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
   header .navbar {
     margin-left: 20%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap; }
-    /* line 21, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
+    /* line 22, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
     header .navbar .listenumero {
       display: flex;
       flex-direction: column-reverse;
       margin-top: -100px;
       overflow: hidden;
       align-items: center; }
-      /* line 29, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
+      /* line 30, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
       header .navbar .listenumero .lesnumeros:hover + #menunumero {
         bottom: 700px; }
-      /* line 33, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
+      /* line 34, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
       header .navbar .listenumero .lesnumeros:hover + .navbar {
         position: relative;
         top: 300px; }
-      /* line 39, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
+      /* line 40, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
       header .navbar .listenumero #menunumero {
         display: flex;
         flex-direction: row;
@@ -134,11 +135,12 @@ header {
         width: 100%;
         height: 300px;
         align-items: center; }
-  /* line 53, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
+  /* line 54, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
   header .sabonner {
     display: flex;
-    flex-direction: row; }
-  /* line 58, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
+    flex-direction: row;
+    align-items: center; }
+  /* line 60, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
   header a {
     font-family: 'Calibre';
     font-style: normal;
@@ -149,7 +151,7 @@ header {
     margin-right: 100px;
     text-overflow: clip;
     width: 120px; }
-  /* line 70, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
+  /* line 72, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
   header .fa-magnifying-glass {
     color: #181818;
     left: 13.72%;
@@ -158,14 +160,14 @@ header {
     bottom: 13.72%;
     margin: 0 20px 0 50px;
     transform: rotateY(180deg); }
-  /* line 80, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
+  /* line 82, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
   header .fa-user {
     left: 12.5%;
     right: 12.5%;
     top: 8.33%;
     bottom: 8.33%;
     color: #181818; }
-  /* line 88, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
+  /* line 90, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
   header button {
     background: #F2F2F4;
     border: 1px solid #181818;
@@ -180,12 +182,12 @@ header {
     font-style: normal;
     font-weight: 700;
     box-shadow: 5px 5px #181818;
-    margin-top: -20px; }
+    margin-top: 0px; }
     /* line 165, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/utils/_mixins.scss */
     header button:active {
       animation: clickbutton 0.1s;
       animation-fill-mode: forwards; }
-  /* line 93, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
+  /* line 95, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
   header #logo21 {
     width: 171px;
     height: 140px;
@@ -329,41 +331,44 @@ header .buttonpagebd {
     line-height: 80%;
     margin: 80px 200px 50px 100px; }
 
-/* line 2, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
-.headerarticle .buttonpagearticle {
-  background: #FFFFFF;
-  border: 1px solid #181818;
-  box-sizing: border-box;
-  border-radius: 30px;
-  width: 179px;
-  height: 52px;
-  font-size: 17px;
-  color: #181818;
-  margin: 15px;
-  font-family: 'Calibre';
-  font-style: normal;
-  font-weight: 700;
-  box-shadow: 5px 5px #181818;
-  margin-top: -20px; }
-  /* line 44, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/utils/_mixins.scss */
-  .headerarticle .buttonpagearticle:active {
-    animation: clickbutton 0.1s;
-    animation-fill-mode: forwards; }
+/* line 1, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+.headerarticle {
+  padding-top: 30px; }
+  /* line 2, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  .headerarticle .buttonpagearticle {
+    background: #FFFFFF;
+    border: 1px solid #181818;
+    box-sizing: border-box;
+    border-radius: 30px;
+    width: 179px;
+    height: 52px;
+    font-size: 17px;
+    color: #181818;
+    margin: 15px;
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 700;
+    box-shadow: 5px 5px #181818;
+    margin-top: 0px; }
+    /* line 44, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/utils/_mixins.scss */
+    .headerarticle .buttonpagearticle:active {
+      animation: clickbutton 0.1s;
+      animation-fill-mode: forwards; }
 
-/* line 10, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+/* line 11, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
 #article main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap; }
-  /* line 16, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  /* line 17, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   #article main article {
     width: 662px;
     height: auto;
     margin-left: auto;
     margin-right: auto; }
-    /* line 21, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 22, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main article p {
       font-family: 'Roslindale';
       font-style: normal;
@@ -371,17 +376,17 @@ header .buttonpagebd {
       font-size: 15px;
       line-height: 160%;
       text-transform: none; }
-  /* line 31, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  /* line 32, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   #article main .entete {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%; }
-    /* line 37, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 38, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .entete .titrearticleligne1 {
       margin-left: 150px; }
-    /* line 40, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 41, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .entete h1 {
       font-style: normal;
       font-weight: 500;
@@ -391,7 +396,7 @@ header .buttonpagebd {
       height: 208px;
       margin-top: 150px;
       margin-bottom: 30px; }
-    /* line 50, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 51, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .entete p {
       font-style: normal;
       font-weight: 500;
@@ -401,10 +406,10 @@ header .buttonpagebd {
       height: 136px;
       margin-top: 0px;
       margin-bottom: 100px; }
-    /* line 60, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 61, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .entete .imgprincipalcontainer {
       width: 100%; }
-      /* line 62, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 63, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       #article main .entete .imgprincipalcontainer img {
         width: 90%;
         margin-left: auto;
@@ -412,13 +417,13 @@ header .buttonpagebd {
         clip-path: inset(0% 5% 0% 5% round 10%);
         animation: apparitionimage 1s ease-in-out 1s 1 normal forwards;
         display: flex; }
-  /* line 74, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  /* line 75, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   #article main .part1 {
     display: flex;
     flex-direction: row;
     margin-top: 100px;
     width: 100%; }
-    /* line 79, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 80, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part1 aside {
       position: absolute;
       width: 330px;
@@ -426,11 +431,11 @@ header .buttonpagebd {
       flex-direction: column;
       margin-top: 30px;
       margin-left: 50px; }
-      /* line 86, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 87, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       #article main .part1 aside .journalist {
         display: flex;
         flex-direction: row; }
-        /* line 89, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+        /* line 90, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
         #article main .part1 aside .journalist p {
           font-style: normal;
           font-weight: 500;
@@ -438,36 +443,36 @@ header .buttonpagebd {
           display: flex;
           flex-direction: column;
           margin-top: -5px; }
-        /* line 97, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+        /* line 98, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
         #article main .part1 aside .journalist img {
           margin-right: 20px;
           display: flex; }
-      /* line 102, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 103, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       #article main .part1 aside .social {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         width: 100px; }
-  /* line 110, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  /* line 111, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   #article main .part2 {
     margin-top: 30px;
     margin-bottom: 30px;
     width: 100%; }
-    /* line 114, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 115, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part2 h3 {
       font-family: 'Calibre';
       font-style: normal;
       font-weight: 700;
       font-size: 31px;
       line-height: 129%; }
-  /* line 122, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  /* line 123, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   #article main .part3 {
     margin-top: 30px;
     margin-bottom: 30px;
     display: flex;
     flex-direction: row;
     width: 100%; }
-    /* line 128, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 129, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part3 p {
       font-family: 'Calibre';
       font-style: normal;
@@ -478,26 +483,26 @@ header .buttonpagebd {
       height: 97px;
       margin-top: 350px;
       margin-left: 3%; }
-  /* line 140, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  /* line 141, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   #article main .part4 {
     display: flex;
     flex-direction: row;
     margin-top: 30px;
     margin-bottom: 30px; }
-    /* line 145, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 146, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part4 aside {
       margin-top: 30px;
       position: absolute;
       left: 100px;
       width: 330px; }
-      /* line 151, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 152, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       #article main .part4 aside img {
         position: relative;
         filter: brightness(50%);
         border-radius: 30px;
         margin-left: -70px;
         box-shadow: 5px 5px 5px #dddddd; }
-      /* line 158, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 159, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       #article main .part4 aside h3 {
         position: absolute;
         z-index: 1;
@@ -508,7 +513,7 @@ header .buttonpagebd {
         font-size: 31px;
         line-height: 129%;
         margin-left: -40px; }
-      /* line 169, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 170, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       #article main .part4 aside p {
         position: absolute;
         z-index: 1;
@@ -521,7 +526,7 @@ header .buttonpagebd {
         line-height: 110%;
         margin-left: -40px;
         margin-right: 30px; }
-      /* line 182, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 183, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       #article main .part4 aside button {
         top: 150px;
         position: absolute;
@@ -543,15 +548,15 @@ header .buttonpagebd {
         #article main .part4 aside button:active {
           animation: clickbutton 0.1s;
           animation-fill-mode: forwards; }
-  /* line 194, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  /* line 195, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   #article main .part5 {
     margin-top: 30px;
     margin-bottom: 30px; }
-    /* line 197, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 198, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part5 .guillemets {
       display: flex;
       justify-content: center; }
-    /* line 201, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 202, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part5 h2 {
       font-family: 'Roslindale';
       font-style: normal;
@@ -560,7 +565,7 @@ header .buttonpagebd {
       line-height: 100%;
       text-align: center;
       margin-left: -350px; }
-    /* line 210, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 211, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part5 p {
       font-family: 'Calibre';
       font-style: normal;
@@ -570,63 +575,63 @@ header .buttonpagebd {
       text-transform: uppercase;
       text-align: center;
       margin-top: -100px; }
-    /* line 220, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 221, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part5 .pillues {
       position: absolute;
       margin-left: -350px; }
-      /* line 223, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 224, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       #article main .part5 .pillues .pillues1 {
         position: absolute;
         left: 195px;
         top: 78px; }
-      /* line 228, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 229, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       #article main .part5 .pillues .pillues2 {
         position: absolute;
         left: 200px;
         top: 270px; }
-      /* line 233, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 234, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       #article main .part5 .pillues .pillues3 {
         position: absolute;
         left: 1050px;
         top: 330px; }
-      /* line 237, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 238, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       #article main .part5 .pillues .pillues4 {
         position: absolute;
         left: 1200px;
         top: 200px; }
-      /* line 241, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 242, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       #article main .part5 .pillues .pillues5 {
         position: absolute;
         left: 1170px;
         top: 49px; }
-      /* line 245, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 246, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       #article main .part5 .pillues .pillues6 {
         position: absolute;
         left: 926px;
         top: 200px; }
-  /* line 252, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  /* line 253, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   #article main .part6 {
     margin-top: 30px;
     margin-bottom: 30px; }
-    /* line 255, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 256, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part6 h3 {
       font-family: 'Calibre';
       font-style: normal;
       font-weight: 700;
       font-size: 31px;
       line-height: 129%; }
-  /* line 263, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  /* line 264, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   #article main .part7 {
     margin-top: 30px;
     margin-bottom: 30px;
     display: flex;
     flex-direction: row;
     width: 100%; }
-    /* line 269, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 270, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part7 .frameleft2 {
       margin-top: 300px;
       margin-right: 150px; }
-    /* line 274, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 275, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part7 p {
       font-family: 'Calibre';
       font-style: normal;
@@ -638,7 +643,7 @@ header .buttonpagebd {
       margin-top: 170px;
       margin-left: 100px;
       text-transform: none; }
-  /* line 288, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  /* line 289, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   #article main .part8 {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -646,31 +651,31 @@ header .buttonpagebd {
     flex-direction: row;
     align-items: center;
     width: 100%; }
-    /* line 295, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 296, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part8 aside {
       display: flex;
       flex-direction: column;
       width: 330px;
       margin-left: 50px;
       position: absolute; }
-      /* line 301, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 302, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       #article main .part8 aside .alireaussi {
         display: flex;
         flex-direction: row;
         height: 120px;
         margin-bottom: 20px; }
-        /* line 306, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+        /* line 307, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
         #article main .part8 aside .alireaussi img {
           margin-right: 20px;
           margin-bottom: 20px;
           margin-top: 20px; }
-        /* line 312, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+        /* line 313, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
         #article main .part8 aside .alireaussi .alireaussidescription p {
           font-style: normal;
           font-weight: 500;
           font-size: 17px;
           margin-top: 20px; }
-        /* line 319, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+        /* line 320, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
         #article main .part8 aside .alireaussi .alireaussidescription h5 {
           font-family: 'Roslindale';
           font-style: normal;
@@ -678,7 +683,7 @@ header .buttonpagebd {
           font-size: 20px;
           line-height: 140%;
           margin-top: -10px; }
-  /* line 332, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  /* line 333, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   #article main .part9 {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -689,17 +694,17 @@ header .buttonpagebd {
     margin-left: auto;
     text-align: center;
     width: 100%; }
-    /* line 342, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 343, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part9 .guillemets {
       margin-bottom: 100px; }
-    /* line 345, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 346, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part9 h2 {
       font-family: 'Roslindale';
       font-style: normal;
       font-weight: 500;
       font-size: 100px;
       line-height: 100%; }
-    /* line 352, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 353, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part9 p {
       font-family: 'Calibre';
       font-style: normal;
@@ -708,7 +713,7 @@ header .buttonpagebd {
       line-height: 141%;
       text-align: center;
       margin-top: -50px; }
-    /* line 361, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 362, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part9 .citationanim {
       display: grid;
       width: 100%;
@@ -718,45 +723,45 @@ header .buttonpagebd {
       grid-template-rows: 1fr;
       margin-top: -150px;
       transition: 1s all 1s ease-in-out; }
-      /* line 371, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 372, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       #article main .part9 .citationanim:hover .animgauche {
         text-align: right; }
-      /* line 374, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 375, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       #article main .part9 .citationanim:hover .animdroite {
         text-align: left; }
-    /* line 379, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 380, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part9 .citationanim > div {
       border: 10px dashed transparent; }
-    /* line 383, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 384, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part9 .animgauche {
       grid-area: art1;
       text-align: center; }
-    /* line 387, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 388, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part9 .animdroite {
       grid-area: art2;
       text-align: center; }
 
-/* line 396, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+/* line 397, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
 .part10 {
   margin-top: 30px;
   margin-bottom: 30px;
   width: 100%; }
-  /* line 400, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  /* line 401, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   .part10 i {
     font-size: 50px;
     position: relative;
     left: 650px;
     bottom: 130px; }
 
-/* line 408, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+/* line 409, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
 .part11 {
   width: 100%; }
-  /* line 410, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  /* line 411, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   .part11 img {
     width: 100%;
     height: auto; }
 
-/* line 415, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+/* line 416, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
 .part12 {
   margin-top: 30px;
   display: flex;
@@ -765,7 +770,7 @@ header .buttonpagebd {
   align-items: center;
   width: 100%;
   background-color: white; }
-  /* line 424, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  /* line 425, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   .part12 h2 {
     font-family: 'Roslindale';
     font-style: normal;
@@ -774,7 +779,7 @@ header .buttonpagebd {
     line-height: 80%;
     width: 710px;
     height: 208px; }
-  /* line 433, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  /* line 434, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   .part12 p {
     font-style: normal;
     font-weight: 500;
@@ -784,7 +789,7 @@ header .buttonpagebd {
     height: 136px;
     margin-bottom: 120px; }
 
-/* line 446, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+/* line 447, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
 .footerarticlecontain {
   width: 100%;
   background-color: #181818;
@@ -793,10 +798,10 @@ header .buttonpagebd {
   position: fixed;
   top: 94%;
   z-index: 1; }
-  /* line 454, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  /* line 455, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   .footerarticlecontain .footertitreliste {
     height: 97px; }
-    /* line 456, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 457, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     .footerarticlecontain .footertitreliste h4 {
       padding: 0px 0px 0px 60px;
       font-style: normal;
@@ -804,15 +809,15 @@ header .buttonpagebd {
       font-size: 17px;
       line-height: 141%;
       color: #FFFFFF; }
-    /* line 465, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 466, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     .footerarticlecontain .footertitreliste:hover {
       opacity: 0;
       height: 0;
       width: 0; }
-      /* line 469, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 470, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       .footerarticlecontain .footertitreliste:hover + .footerarticle {
         visibility: visible; }
-  /* line 475, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  /* line 476, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   .footerarticlecontain .footerarticle {
     display: flex;
     flex-direction: row;
@@ -822,7 +827,7 @@ header .buttonpagebd {
     width: 100%;
     background-color: #181818;
     height: 97px; }
-    /* line 484, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 485, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     .footerarticlecontain .footerarticle a {
       display: flex;
       flex-direction: row;
@@ -831,10 +836,10 @@ header .buttonpagebd {
       flex-direction: row;
       color: grey;
       align-items: center; }
-      /* line 492, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 493, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       .footerarticlecontain .footerarticle a:hover {
         color: #FFFFFF; }
-      /* line 496, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 497, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       .footerarticlecontain .footerarticle a p, .footerarticlecontain .footerarticle a h3 {
         display: flex;
         flex-direction: row;

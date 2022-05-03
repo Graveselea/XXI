@@ -1,8 +1,9 @@
 .headerarticle {
     .buttonpagearticle {
     @include button-white;
-    margin-top: -20px;
+    margin-top: 0px;
     }
+    padding-top: 30px;
 }
 
 #article {
@@ -461,7 +462,7 @@
             line-height: 141%;
             color: $color-secondary;
         }
-        
+
         &:hover {
             opacity: 0;
             height: 0;

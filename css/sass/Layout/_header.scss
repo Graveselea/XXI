@@ -5,6 +5,7 @@ header {
     z-index: 1;
     flex-wrap: nowrap;
     width: 100%;
+    padding-top: 30px;
     nav {
         display: flex;
         flex-direction: row;  
@@ -53,6 +54,7 @@ header {
     .sabonner {
         display: flex;
         flex-direction: row;
+        align-items: center;
     }
 
     a {
@@ -87,7 +89,7 @@ header {
 
     button {
        @include button-grey;
-      margin-top: -20px;
+      margin-top: 0px;
 
     }   
     #logo21 {
