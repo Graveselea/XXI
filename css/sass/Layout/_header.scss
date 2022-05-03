@@ -1,5 +1,5 @@
 header {
-    position:absolute;
+    position:relative;
     display: flex;
     flex-direction: row;
     z-index: 1;
@@ -7,14 +7,52 @@ header {
     width: 100%;
     nav {
         display: flex;
-        flex-direction: row;
-        margin-top: 3%;  
+        flex-direction: row;  
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+
     }
     .navbar {
         margin-left: 20%;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
+        .listenumero {
+            display: flex;
+            flex-direction: column-reverse;
+            margin-top: -100px;
+            overflow: hidden;
+            align-items: center;
+            .lesnumeros {
+                &:hover {
+                    + #menunumero {
+                        bottom: 700px;
+                        
+                    }
+                    + .navbar {
+                        position: relative;
+                        top: 300px;
+                    }
+                }
+            }
+            #menunumero {
+            display: flex;
+            flex-direction: row;
+            position: fixed;
+            bottom: 1000px;
+            background-color: #181818;
+            color: white;
+            width: 100%;
+            height: 300px;
+            align-items: center;
+            }
+        }
+    }
+
+    .sabonner {
+        display: flex;
+        flex-direction: row;
     }
 
     a {
@@ -49,23 +87,19 @@ header {
 
     button {
        @include button-grey;
-       margin-top:-50px;
+      margin-top: -20px;
 
     }   
     #logo21 {
     width: 171px;
     height: 140px;
-    margin-top: -20px;
     margin-left: 100px;
     }
+    
 
 
 }
 
-#menunumero {
-    display: flex;
-    flex-direction: row;
-    margin-top: -250px;
-}
+
 
 

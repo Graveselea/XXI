@@ -1,4 +1,4 @@
-header {
+.headerarticle {
     .buttonpagearticle {
     @include button-white;
     margin-top: -20px;
@@ -6,16 +6,13 @@ header {
 }
 
 #article {
+    
     main {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         flex-wrap: nowrap;
-        margin-left: -200px;
-        margin-right: -300px;
-        padding-left: 0;
-        padding-right: 0;
         article {
             width: 662px;
             height: auto;
@@ -36,6 +33,10 @@ header {
             flex-direction: column;
             justify-content: center;
             align-items: center; 
+            width: 100%;
+            .titrearticleligne1 {
+                margin-left: 150px;
+            }
             h1 {
             font-style: normal;
             font-weight: 500;
@@ -56,10 +57,17 @@ header {
             margin-top: 0px;
             margin-bottom: 100px;
             }
-        .imgprincipalcontainer {
-            clip-path: inset(0% 5% 0% 5% round 10%);            
-            animation: apparitionimage 1s ease-in-out 1s 1 normal forwards;
-            min-width: 1500px;
+        .imgprincipalcontainer { 
+            width: 100%;
+            img {
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+                clip-path: inset(0% 5% 0% 5% round 10%);            
+                animation: apparitionimage 1s ease-in-out 1s 1 normal forwards;
+                display: flex;
+                
+            }
             
             }
         }
@@ -67,18 +75,17 @@ header {
             display: flex;
             flex-direction: row;
             margin-top: 100px;
+            width: 100%;
             aside {
                 position: absolute;
-                left: 100px;
                 width: 330px;
                 display: flex;
                 flex-direction: column;
                 margin-top: 30px;
+                margin-left: 50px;
                 .journalist {
                     display: flex;
                     flex-direction: row;
-                    align-content: center;
-                    
                     p {
                         font-style: normal;
                         font-weight: 500;
@@ -92,11 +99,18 @@ header {
                         display: flex;
                     }
                 }
+                .social {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    width: 100px;
+                }
             }
      }
         .part2{
-                        margin-top: 30px;
+            margin-top: 30px;
             margin-bottom: 30px;
+            width: 100%;
             h3 {
                 font-family: 'Calibre';
                 font-style: normal;
@@ -110,9 +124,7 @@ header {
             margin-bottom: 30px;
             display: flex;
             flex-direction: row;
-            img {
-                margin-left: -220px;
-            }
+            width: 100%;
             p {
                 font-family: 'Calibre';
                 font-style: normal;
@@ -122,7 +134,7 @@ header {
                 width: 378px;
                 height: 97px;
                 margin-top: 350px;
-                margin-left: 50px;
+                margin-left: 3%;
             }
         }
         .part4 {
@@ -134,12 +146,14 @@ header {
                 margin-top: 30px;
                 position: absolute;
                 left: 100px;
-                width: 330px;         
+                width: 330px;     
+                 
                 img {
                     position: relative;
                     filter: brightness(50%);
                     border-radius: 30px;
                     margin-left: -70px;
+                    box-shadow: 5px 5px 5px rgb(221, 221, 221);   
                     }
                 h3 {
                     position: absolute;
@@ -251,9 +265,11 @@ header {
             margin-bottom: 30px;
             display: flex;
             flex-direction: row;
+            width: 100%;
             .frameleft2 {
                     margin-top: 300px;
-                    margin-left: -380px;
+                    margin-right: 150px;
+            
             }
             p {
                 font-family: 'Calibre';
@@ -272,17 +288,19 @@ header {
         .part8 {
             margin-top: 30px;
             margin-bottom: 30px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
             aside {
-                position: absolute;
-                left: 40px;
-                width: 330px;
                 display: flex;
                 flex-direction: column;
+                width: 330px;
+                margin-left: 50px;
+                position: absolute;
                 .alireaussi {
                     display: flex;
                     flex-direction: row;
-                    align-content: center;
-                    width: 330px;
                     height: 120px;  
                     margin-bottom: 20px;                  
                     img {
@@ -320,6 +338,7 @@ header {
                 margin-right: auto;
                 margin-left: auto;
                 text-align: center;
+                width: 100%;
                 .guillemets {
                     margin-bottom: 100px;
                 }
@@ -377,11 +396,20 @@ header {
             .part10 {
                 margin-top: 30px;
                 margin-bottom: 30px;
+                width: 100%;
                 i {
                     font-size: 50px;
                     position: relative;
                     left: 650px;
                     bottom: 130px;
+                }
+            }
+
+            .part11 {
+                width: 100%;
+                img {
+                    width: 100%;
+                    height: auto;
                 }
             }
             .part12 {
@@ -390,6 +418,9 @@ header {
             flex-direction: column;
             justify-content: center;
             align-items: center; 
+            width: 100%;
+            background-color: white;
+
             h2 {
             font-family: 'Roslindale';
             font-style: normal;
@@ -410,29 +441,65 @@ header {
             }
         } 
 
-    
 
+
+    .footerarticlecontain {
+        width: 100%;
+        background-color: $color-tertiary;
+        height: 97px;
+        margin-top: -30px;
+        position: fixed;
+        top: 94%;
+        z-index: 1;
+        .footertitreliste {
+            height: 97px;
+        h4 {
+            padding: 0px 0px 0px 60px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 141%;
+            color: $color-secondary;
+        }
+        
+        &:hover {
+            opacity: 0;
+            height: 0;
+            width: 0;
+            + .footerarticle {
+                visibility: visible;            
+
+            }
+        }
+    }
     .footerarticle {
         display: flex;
         flex-direction: row;
-        width: 1440px;
-        height: 94px;
+        width: 100%;
+        padding: 20px 0px;
+        visibility: hidden;
+        width: 100%;
+        background-color: $color-tertiary;
+        height: 97px;
         a {
             display: flex;
             flex-direction: row;
-            margin: 5px 10px;
+            margin: 0px 30px;
             display: flex;
             flex-direction: row;
             color: grey;
-            align-items: center;
+            align-items: center;                
+            &:hover {
+                color: $color-secondary;
+            }
+            
             p, h3 {
                 display: flex;
                 flex-direction: row;
                 margin: 0px 10px;
             }
-            &:hover {
-                color: $color-secondary;
-            }
+
         }
     }
 
+}

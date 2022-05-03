@@ -4,8 +4,7 @@
     align-items: flex-end;
     background-color: $color-primary;
     width: 100%;
-    min-height: 100%;
-    min-width: 100%;
+    margin-top: -300px;
     .numero57img {
         opacity: 0;
         animation-name: opacity-1;
@@ -22,7 +21,7 @@
     margin-bottom: 20px;
     }
     .fondyellow-column {
-        padding: 100px;
+        padding: 150px;
     }
     h2 {
     color: #181818;
@@ -39,16 +38,16 @@
     font-weight: 700;
     font-size: 17px;
     line-height: 141%;
-    margin-top: 150px;
+    margin-top: 180px;
     margin-bottom: 20px;
     }
 
     img {
-        position: absolute;
+        position: relative;
         width: 710px;
         height: 498px;
-        left: 639px;
-        top: 216px;
+        right: 0px;
+        top: 46px;
     }
     p {
         position: static;

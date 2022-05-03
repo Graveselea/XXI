@@ -5,17 +5,19 @@ top: 0px;
 background: #FFFFFF;
 margin-top: 200px;
 margin-left: 100px;
+width: 100%;
   img:hover {
         animation: rotate1 1s ease-in-out;
         animation-fill-mode: forwards;
     }
+
+
 
   .articles-titres {
     font-style: normal;
     font-weight: 500;
     font-size: 31px;
     line-height: 129%;
-    
     margin-top: 100px;
     margin-bottom: 50px;
   }
@@ -62,6 +64,7 @@ margin-left: 100px;
         height: 1500px;
         grid-template-areas: "couv1 couv2 couv2"
         "couv3 couv4 couv5";
+        width: 100%;
         grid-template-columns: 500PX 250PX 250PX;
         grid-template-rows: 500PX 1fr;
         grid-column-gap: 100px;
