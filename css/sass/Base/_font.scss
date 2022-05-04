@@ -2,8 +2,26 @@
     font-family: 'Calibre';
     src: local(calibre), url('/fonts/calibre/CalibreLight.otf') format("opentype");
   }
+  @font-face {
+    font-family: 'Salernomi J';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Salernomi J'), url('/fonts/9SALERNO.woff') format('woff');
+    }
+
+  @font-face {
+    font-family: 'WindsorOpti-LightCondensed';
+    src:url('/fonts/windsor/WindsorOpti-LightCondensed.ttf.woff') format('woff'),
+        url('/fonts/windsor/WindsorOpti-LightCondensed.ttf.svg#WindsorOpti-LightCondensed') format('svg'),
+        url('/fonts/windsor/WindsorOpti-LightCondensed.ttf.eot'),
+        url('/fonts/windsor/WindsorOpti-LightCondensed.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: condensed;
+}
   
-  
+@import url(//db.onlinewebfonts.com/c/ba2b8f7a1a1b02d9bac815a0040395aa?family=RoslindaleDisplayCondensed);
+
   @font-face {
     font-family: 'OPTIRomanaRoman-Normal';
     src:url('/fonts/opti/OPTIRomanaRoman-Normal.ttf.woff') format('woff'),

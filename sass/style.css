@@ -102,7 +102,7 @@
 
 /* line 1, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/base/_base.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'OPTIRomanaRoman-Normal', serif; }
+  font-family: 'Roslindale condense','Roslindale', serif; }
 
 /* line 5, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/base/_base.scss */
 p {
@@ -137,6 +137,19 @@ html,
 @font-face {
   font-family: 'Calibre';
   src: local(calibre), url("/fonts/calibre/CalibreLight.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'Salernomi J';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Salernomi J"), url("/fonts/9SALERNO.woff") format("woff"); }
+
+@font-face {
+  font-family: 'WindsorOpti-LightCondensed';
+  src: url("/fonts/windsor/WindsorOpti-LightCondensed.ttf.woff") format("woff"), url("/fonts/windsor/WindsorOpti-LightCondensed.ttf.svg#WindsorOpti-LightCondensed") format("svg"), url("/fonts/windsor/WindsorOpti-LightCondensed.ttf.eot"), url("/fonts/windsor/WindsorOpti-LightCondensed.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: condensed; }
 
 @font-face {
   font-family: 'OPTIRomanaRoman-Normal';
@@ -780,6 +793,34 @@ header .buttonpagebd {
     font-size: 130px;
     line-height: 80%;
     margin: 80px 200px 50px 100px; }
+
+@media screen and (max-width: 767px) {
+  /* line 54, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_bd.scss */
+  .headerbd {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    /* line 55, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_bd.scss */
+    .headerbd #logo21 {
+      margin-left: -121px;
+      margin-bottom: -50px; }
+    /* line 62, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_bd.scss */
+    .headerbd .navbar {
+      display: flex;
+      flex-direction: column;
+      margin-left: 60px;
+      margin-top: -80px;
+      display: flex;
+      flex-direction: column;
+      text-align: right;
+      margin-left: 240px; }
+    /* line 73, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_bd.scss */
+    .headerbd .sabonner {
+      padding-left: 115px; }
+      /* line 75, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_bd.scss */
+      .headerbd .sabonner .buttonpagearticle {
+        width: 100%;
+        font-size: 14px; } }
 
 /* line 1, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
 .headerarticle {
