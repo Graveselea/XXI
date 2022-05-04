@@ -20,7 +20,7 @@
             margin-left: auto;
             margin-right: auto;
             p {
-                font-family: 'Roslindale Variable','Roslindale';
+                font-family: 'Roslindale condense','Roslindale', serif;
                 font-style: normal;
                 font-weight: 400;
                 font-size: 15px;
@@ -148,8 +148,8 @@
             margin-bottom: 30px;
             aside {
                 margin-top: 30px;
-                position: absolute;
-                left: 100px;
+                position: relative;
+                left: 14px;
                 width: 330px;     
                  
                 img {
@@ -163,7 +163,7 @@
                     position: absolute;
                     z-index: 1;
                     color: white;
-                    font-family: 'Roslindale Variable','Roslindale';
+                    font-family: 'Roslindale condense','Roslindale', serif;
                     font-style: normal;
                     font-weight: 500;
                     font-size: 31px;
@@ -202,8 +202,19 @@
                 display: flex;
                 justify-content: center;
             }
+            .citation1 {
+                margin-top: -20px;
+                
+                .citation1ligne1 {
+                    margin-left: 350px;
+                    }
+                    .citation1ligne3 {
+                        margin-left: -58px;
+                        margin-right: -426px;
+                        }
+                }
             h2 {
-                font-family: 'Roslindale Variable','Roslindale';
+                font-family: 'Roslindale condense','Roslindale', serif;
                 font-style: normal;
                 font-weight: 500;
                 font-size: 100px;
@@ -219,10 +230,16 @@
                 line-height: 141%;
                 text-transform: uppercase;
                 text-align: center;
-                margin-top: -100px;
+                margin-top: -20px;
             }
             .pillues {
                 position: relative;
+                margin-left: -346px;
+                margin-top: -20px;
+                &:hover {
+                    animation: pillules 5s linear forwards ; 
+
+                }
                 .pillues1 {
                     position: absolute;
                     left: 195px;
@@ -320,7 +337,7 @@
                     }
 
                     h5{
-                        font-family: 'Roslindale Variable','Roslindale';
+                        font-family: 'Roslindale condense','Roslindale', serif;
                         font-style: normal;
                         font-weight: 400;
                         font-size: 20px;
@@ -346,7 +363,7 @@
                     margin-bottom: 100px;
                 }
                 h2{
-                    font-family: 'Roslindale Variable','Roslindale';
+                    font-family: 'Roslindale condense','Roslindale', serif;
                     font-style: normal;
                     font-weight: 500;
                     font-size: 100px;
@@ -364,18 +381,25 @@
                 .citationanim { 
                         display: grid;
                         width: 100%;
-                        height: 100%;
+                        height: auto;
                         grid-template-areas: "art1 art2";
                         grid-template-columns: 1fr 1fr;
                         grid-template-rows: 1fr;  
                         margin-top: -150px; 
-                        transition: 1s all 1s ease-in-out;  
+                        .animgaucheligne2 {
+                            margin-left: 270px;
+                            
+                        }
+                        .animdroiteligne3 {
+                            margin-right: 80px;
+                            
+                        }
                         &:hover {
                             .animgauche {
-                                text-align: right;
+                                animation: citation1 1s linear forwards ; margin-right: 5%;
                               }
                               .animdroite {
-                                text-align:left;
+                                animation: citation2 1s linear forwards; margin-left: 5%;
                               }
                         }             
                       }
@@ -425,7 +449,7 @@
             background-color: white;
 
             h2 {
-                font-family: 'Roslindale Variable','Roslindale';
+                font-family: 'Roslindale condense','Roslindale', serif;
                 font-style: normal;
             font-weight: 500;
             font-size: 130px;
@@ -530,7 +554,7 @@
    
     }
        .sabonner {
-        padding-left: 44px;
+        padding-left: 115px;
            .buttonpagearticle {
             width: 100%;
             font-size: 14px;
@@ -570,9 +594,60 @@
         article {
             padding-left: 0px;
             padding-right: 270px;
-
+            }
         }
-    }
+        .part2 {
+            article {
+            padding-right: 270px;
+            }
+        }
+        .part3 {
+            display: flex;
+            flex-direction: column;
+            img {
+                width: 80%;
+                height: auto;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            p {
+                margin-top: 5px;
+                font-size: 10px;
+            }
+        }
+        .part4 {
+            article {
+                p {
+                    text-align:justify;
+                    width: 100%;
+                   
+                }
+            }
+        }
+        .part5 {
+            h2 {
+                font-size: 20px;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+            }
+            .guillemets {
+                img {
+                    width: 8%;
+                }
+            }
+
+            .pillues {
+                img {
+                width: 8%;
+                height: auto;
+                
+                }
+            }
+        }
+
+
+
     }
 
 
