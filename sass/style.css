@@ -2,8 +2,6 @@
 /* color */
 /* animation menu */
 /* animation loader */
-@import url("http://fonts.cdnfonts.com/css/calibre");
-@import url(//db.onlinewebfonts.com/c/96881f7f853f14d6350ed1803e692a1f?family=Roslindale);
 @keyframes opacity-1 {
   from {
     transform: translate3d(0, 100px, 0); }
@@ -60,7 +58,7 @@
 
 /* line 1, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/base/_base.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roslindale'; }
+  font-family: 'Roslindale Variable','Roslindale'; }
 
 /* line 5, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/base/_base.scss */
 p {
@@ -91,6 +89,304 @@ html,
 ::after {
   box-sizing: border-box;
   scroll-behavior: smooth; }
+
+@font-face {
+  font-family: 'Calibre';
+  src: local(calibre), url("/fonts/calibre/CalibreBold.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'OPTIRomanaRoman-Normal';
+  src: url("/fonts/opti/OPTIRomanaRoman-Normal.ttf.woff") format("woff"), url("/fonts/opti/OPTIRomanaRoman-Normal.ttf.svg#OPTIRomanaRoman-Normal") format("svg"), url("/fonts/opti/OPTIRomanaRoman-Normal.ttf.eot"), url("/fonts/opti/OPTIRomanaRoman-Normal.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  src: url("/fonts/roslindale/RoslindaleVariable-VF-Testing.woff2") format("woff2"), url("/fonts/roslindale/RoslindaleVariable-VF-Testing.woff") format("woff");
+  font-family: 'Roslindale Variable';
+  font-style: normal;
+  font-weight: bold; }
+
+@font-face {
+  src: url("/fonts/roslindale/RoslindaleVariable-VF[Display]-Testing.woff2") format("woff2"), url("/fonts/roslindale/RoslindaleVariable-VF[Display]-Testing.woff") format("woff");
+  font-family: 'Roslindale Variable';
+  font-style: normal;
+  font-weight: bold; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DisplayCondensedExtraLight-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayCondensedExtraLight-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: 200; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DisplayCondensedExtraLightItalic-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayCondensedExtraLightItalic-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: italic;
+  font-weight: 200; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DisplayCondensedLight-Testing.woff2") format("woff2"), url("/fonts/roslindale//Roslindale-DisplayCondensedLight-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: 300; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DisplayCondensedLightItalic-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayCondensedLightItalic-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: italic;
+  font-weight: 300; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DisplayCondensedRegular-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayCondensedRegular-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DisplayCondensedItalic-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayCondensedItalic-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: italic;
+  font-weight: normal; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DisplayCondensedMedium-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayCondensedMedium-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: 500; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DisplayCondensedMediumItalic-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayCondensedMediumItalic-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: italic;
+  font-weight: 500; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DisplayCondensedSemiBold-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayCondensedSemiBold-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: 600; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DisplayCondensedSemiBoldItalic-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayCondensedSemiBoldItalic-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: italic;
+  font-weight: 600; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DisplayCondensedBold-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayCondensedBold-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DisplayCondensedBoldItalic-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayCondensedBoldItalic-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: italic;
+  font-weight: normal; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DisplayCondensedBlack-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayCondensedBlack-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: 800; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DisplayCondensedUltra-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayCondensedUltra-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DisplayNarrowExtraLight-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayNarrowExtraLight-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: 200; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DisplayNarrowLight-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayNarrowLight-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: 300; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DisplayNarrowRegular-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayNarrowRegular-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DisplayNarrowMedium-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayNarrowMedium-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: 500; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DisplayNarrowSemiBold-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayNarrowSemiBold-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: 600; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DisplayNarrowBold-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayNarrowBold-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DisplayNarrowBlack-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayNarrowBlack-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: 800; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DisplayNarrowUltra-Testing.woff2") format("woff2"), url("/fonts/roslindale//Roslindale-DisplayNarrowUltra-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DisplayExtraLight-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayExtraLight-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: 200; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DisplayLight-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayLight-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: 300; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DisplayRegular-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayRegular-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DisplayMedium-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayMedium-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: 500; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DisplaySemiBold-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplaySemiBold-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: 600; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DisplayBold-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayBold-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DisplayBlack-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayBlack-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: 800; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DisplayUltra-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayUltra-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: 900; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DeckNarrowRegular-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DeckNarrowRegular-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DeckNarrowItalic-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DeckNarrowItalic-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: italic;
+  font-weight: normal; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DeckNarrowMedium-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DeckNarrowMedium-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: 500; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DeckNarrowMediumItalic-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DeckNarrowMediumItalic-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: italic;
+  font-weight: 500; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DeckNarrowSemiBold-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DeckNarrowSemiBold-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: 600; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DeckNarrowSemiBoldItalic-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DeckNarrowSemiBoldItalic-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: italic;
+  font-weight: 600; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DeckNarrowBold-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DeckNarrowBold-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-DeckNarrowBoldItalic-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DeckNarrowBoldItalic-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: italic;
+  font-weight: normal; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-TextRegular-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-TextRegular-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-TextItalic-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-TextItalic-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: italic;
+  font-weight: normal; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-TextMedium-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-TextMedium-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: 500; }
+
+@font-face {
+  src: url("/fonts/roslindale//Roslindale-TextMediumItalic-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-TextMediumItalic-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: italic;
+  font-weight: 500; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-TextSemiBold-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-TextSemiBold-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: 600; }
+
+@font-face {
+  src: url("/fonts/roslindale//Roslindale-TextSemiBoldItalic-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-TextSemiBoldItalic-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: italic;
+  font-weight: 600; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-TextBold-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-TextBold-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  src: url("/fonts/roslindale/Roslindale-TextBoldItalic-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-TextBoldItalic-Testing.woff") format("woff");
+  font-family: 'Roslindale';
+  font-style: italic;
+  font-weight: normal; }
 
 /* line 1, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
 header {
@@ -126,7 +422,7 @@ header {
     font-size: 17px;
     line-height: 141%;
     color: #181818;
-    margin-right: 100px;
+    margin-right: 130px;
     text-overflow: clip;
     width: 120px; }
   /* line 40, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
@@ -223,7 +519,7 @@ header {
       header .navbar .sabonner {
         margin-left: 100px; }
         /* line 126, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
-        header .navbar .sabonner .buttonpagearticle {
+        header .navbar .sabonner .buttonpageindex {
           width: 100%;
           font-size: 14px; }
       /* line 131, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
@@ -480,7 +776,7 @@ header .buttonpagebd {
     margin-right: auto; }
     /* line 22, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main article p {
-      font-family: 'Roslindale';
+      font-family: 'Roslindale Variable','Roslindale';
       font-style: normal;
       font-weight: 400;
       font-size: 15px;
@@ -499,7 +795,7 @@ header .buttonpagebd {
     /* line 41, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .entete h1 {
       font-style: normal;
-      font-weight: 500;
+      font-weight: 400;
       font-size: 130px;
       line-height: 80%;
       width: 710px;
@@ -534,18 +830,21 @@ header .buttonpagebd {
     margin-top: 100px;
     width: 100%; }
     /* line 80, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    #article main .part1 article {
+      margin-right: 390px; }
+    /* line 83, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part1 aside {
-      position: absolute;
+      position: relative;
       width: 330px;
       display: flex;
       flex-direction: column;
       margin-top: 30px;
       margin-left: 50px; }
-      /* line 87, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 90, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       #article main .part1 aside .journalist {
         display: flex;
         flex-direction: row; }
-        /* line 90, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+        /* line 93, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
         #article main .part1 aside .journalist p {
           font-style: normal;
           font-weight: 500;
@@ -553,36 +852,36 @@ header .buttonpagebd {
           display: flex;
           flex-direction: column;
           margin-top: -5px; }
-        /* line 98, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+        /* line 101, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
         #article main .part1 aside .journalist img {
           margin-right: 20px;
           display: flex; }
-      /* line 103, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 106, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       #article main .part1 aside .social {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         width: 100px; }
-  /* line 111, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  /* line 114, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   #article main .part2 {
     margin-top: 30px;
     margin-bottom: 30px;
     width: 100%; }
-    /* line 115, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 118, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part2 h3 {
       font-family: 'Calibre';
       font-style: normal;
       font-weight: 700;
       font-size: 31px;
       line-height: 129%; }
-  /* line 123, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  /* line 126, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   #article main .part3 {
     margin-top: 30px;
     margin-bottom: 30px;
     display: flex;
     flex-direction: row;
     width: 100%; }
-    /* line 129, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 132, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part3 p {
       font-family: 'Calibre';
       font-style: normal;
@@ -593,37 +892,37 @@ header .buttonpagebd {
       height: 97px;
       margin-top: 350px;
       margin-left: 3%; }
-  /* line 141, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  /* line 144, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   #article main .part4 {
     display: flex;
     flex-direction: row;
     margin-top: 30px;
     margin-bottom: 30px; }
-    /* line 146, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 149, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part4 aside {
       margin-top: 30px;
       position: absolute;
       left: 100px;
       width: 330px; }
-      /* line 152, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 155, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       #article main .part4 aside img {
         position: relative;
         filter: brightness(50%);
         border-radius: 30px;
         margin-left: -70px;
         box-shadow: 5px 5px 5px #dddddd; }
-      /* line 159, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 162, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       #article main .part4 aside h3 {
         position: absolute;
         z-index: 1;
         color: white;
-        font-family: 'Roslindale';
+        font-family: 'Roslindale Variable','Roslindale';
         font-style: normal;
         font-weight: 500;
         font-size: 31px;
         line-height: 129%;
         margin-left: -40px; }
-      /* line 170, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 173, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       #article main .part4 aside p {
         position: absolute;
         z-index: 1;
@@ -636,7 +935,7 @@ header .buttonpagebd {
         line-height: 110%;
         margin-left: -40px;
         margin-right: 30px; }
-      /* line 183, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 186, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       #article main .part4 aside button {
         top: 150px;
         position: absolute;
@@ -658,24 +957,24 @@ header .buttonpagebd {
         #article main .part4 aside button:active {
           animation: clickbutton 0.1s;
           animation-fill-mode: forwards; }
-  /* line 195, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  /* line 198, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   #article main .part5 {
     margin-top: 30px;
     margin-bottom: 30px; }
-    /* line 198, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 201, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part5 .guillemets {
       display: flex;
       justify-content: center; }
-    /* line 202, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 205, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part5 h2 {
-      font-family: 'Roslindale';
+      font-family: 'Roslindale Variable','Roslindale';
       font-style: normal;
       font-weight: 500;
       font-size: 100px;
       line-height: 100%;
       text-align: center;
       margin-left: -350px; }
-    /* line 211, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 214, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part5 p {
       font-family: 'Calibre';
       font-style: normal;
@@ -685,63 +984,62 @@ header .buttonpagebd {
       text-transform: uppercase;
       text-align: center;
       margin-top: -100px; }
-    /* line 221, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 224, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part5 .pillues {
-      position: absolute;
-      margin-left: -350px; }
-      /* line 224, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      position: relative; }
+      /* line 226, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       #article main .part5 .pillues .pillues1 {
         position: absolute;
         left: 195px;
         top: 78px; }
-      /* line 229, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 231, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       #article main .part5 .pillues .pillues2 {
         position: absolute;
         left: 200px;
         top: 270px; }
-      /* line 234, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 236, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       #article main .part5 .pillues .pillues3 {
         position: absolute;
         left: 1050px;
         top: 330px; }
-      /* line 238, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 240, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       #article main .part5 .pillues .pillues4 {
         position: absolute;
         left: 1200px;
         top: 200px; }
-      /* line 242, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 244, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       #article main .part5 .pillues .pillues5 {
         position: absolute;
         left: 1170px;
         top: 49px; }
-      /* line 246, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 248, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       #article main .part5 .pillues .pillues6 {
         position: absolute;
         left: 926px;
         top: 200px; }
-  /* line 253, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  /* line 255, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   #article main .part6 {
     margin-top: 30px;
     margin-bottom: 30px; }
-    /* line 256, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 258, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part6 h3 {
       font-family: 'Calibre';
       font-style: normal;
       font-weight: 700;
       font-size: 31px;
       line-height: 129%; }
-  /* line 264, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  /* line 266, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   #article main .part7 {
     margin-top: 30px;
     margin-bottom: 30px;
     display: flex;
     flex-direction: row;
     width: 100%; }
-    /* line 270, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 272, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part7 .frameleft2 {
       margin-top: 300px;
       margin-right: 150px; }
-    /* line 275, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 277, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part7 p {
       font-family: 'Calibre';
       font-style: normal;
@@ -753,7 +1051,7 @@ header .buttonpagebd {
       margin-top: 170px;
       margin-left: 100px;
       text-transform: none; }
-  /* line 289, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  /* line 291, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   #article main .part8 {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -761,39 +1059,39 @@ header .buttonpagebd {
     flex-direction: row;
     align-items: center;
     width: 100%; }
-    /* line 296, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 298, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part8 aside {
       display: flex;
       flex-direction: column;
       width: 330px;
       margin-left: 50px;
       position: absolute; }
-      /* line 302, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 304, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       #article main .part8 aside .alireaussi {
         display: flex;
         flex-direction: row;
         height: 120px;
         margin-bottom: 20px; }
-        /* line 307, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+        /* line 309, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
         #article main .part8 aside .alireaussi img {
           margin-right: 20px;
           margin-bottom: 20px;
           margin-top: 20px; }
-        /* line 313, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+        /* line 315, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
         #article main .part8 aside .alireaussi .alireaussidescription p {
           font-style: normal;
           font-weight: 500;
           font-size: 17px;
           margin-top: 20px; }
-        /* line 320, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+        /* line 322, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
         #article main .part8 aside .alireaussi .alireaussidescription h5 {
-          font-family: 'Roslindale';
+          font-family: 'Roslindale Variable','Roslindale';
           font-style: normal;
           font-weight: 400;
           font-size: 20px;
           line-height: 140%;
           margin-top: -10px; }
-  /* line 333, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  /* line 335, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   #article main .part9 {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -804,17 +1102,17 @@ header .buttonpagebd {
     margin-left: auto;
     text-align: center;
     width: 100%; }
-    /* line 343, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 345, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part9 .guillemets {
       margin-bottom: 100px; }
-    /* line 346, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 348, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part9 h2 {
-      font-family: 'Roslindale';
+      font-family: 'Roslindale Variable','Roslindale';
       font-style: normal;
       font-weight: 500;
       font-size: 100px;
       line-height: 100%; }
-    /* line 353, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 355, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part9 p {
       font-family: 'Calibre';
       font-style: normal;
@@ -823,7 +1121,7 @@ header .buttonpagebd {
       line-height: 141%;
       text-align: center;
       margin-top: -50px; }
-    /* line 362, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 364, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part9 .citationanim {
       display: grid;
       width: 100%;
@@ -833,45 +1131,45 @@ header .buttonpagebd {
       grid-template-rows: 1fr;
       margin-top: -150px;
       transition: 1s all 1s ease-in-out; }
-      /* line 372, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 374, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       #article main .part9 .citationanim:hover .animgauche {
         text-align: right; }
-      /* line 375, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 377, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       #article main .part9 .citationanim:hover .animdroite {
         text-align: left; }
-    /* line 380, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 382, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part9 .citationanim > div {
       border: 10px dashed transparent; }
-    /* line 384, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 386, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part9 .animgauche {
       grid-area: art1;
       text-align: center; }
-    /* line 388, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 390, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part9 .animdroite {
       grid-area: art2;
       text-align: center; }
 
-/* line 397, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+/* line 399, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
 .part10 {
   margin-top: 30px;
   margin-bottom: 30px;
   width: 100%; }
-  /* line 401, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  /* line 403, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   .part10 i {
     font-size: 50px;
     position: relative;
     left: 650px;
     bottom: 130px; }
 
-/* line 409, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+/* line 411, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
 .part11 {
   width: 100%; }
-  /* line 411, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  /* line 413, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   .part11 img {
     width: 100%;
     height: auto; }
 
-/* line 416, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+/* line 418, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
 .part12 {
   margin-top: 30px;
   display: flex;
@@ -880,16 +1178,16 @@ header .buttonpagebd {
   align-items: center;
   width: 100%;
   background-color: white; }
-  /* line 425, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  /* line 427, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   .part12 h2 {
-    font-family: 'Roslindale';
+    font-family: 'Roslindale Variable','Roslindale';
     font-style: normal;
     font-weight: 500;
     font-size: 130px;
     line-height: 80%;
     width: 710px;
     height: 208px; }
-  /* line 434, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  /* line 436, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   .part12 p {
     font-style: normal;
     font-weight: 500;
@@ -899,7 +1197,7 @@ header .buttonpagebd {
     height: 136px;
     margin-bottom: 120px; }
 
-/* line 447, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+/* line 449, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
 .footerarticlecontain {
   width: 100%;
   background-color: #181818;
@@ -908,10 +1206,10 @@ header .buttonpagebd {
   position: fixed;
   top: 94%;
   z-index: 1; }
-  /* line 455, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  /* line 457, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   .footerarticlecontain .footertitreliste {
     height: 97px; }
-    /* line 457, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 459, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     .footerarticlecontain .footertitreliste h4 {
       padding: 0px 0px 0px 60px;
       font-style: normal;
@@ -919,15 +1217,15 @@ header .buttonpagebd {
       font-size: 17px;
       line-height: 141%;
       color: #FFFFFF; }
-    /* line 466, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    /* line 468, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     .footerarticlecontain .footertitreliste:hover {
       opacity: 0;
       height: 0;
       width: 0; }
-      /* line 470, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 472, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       .footerarticlecontain .footertitreliste:hover + .footerarticle {
         visibility: visible; }
-  /* line 476, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  /* line 478, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   .footerarticlecontain .footerarticle {
     display: flex;
     flex-direction: row;
@@ -936,8 +1234,9 @@ header .buttonpagebd {
     visibility: hidden;
     width: 100%;
     background-color: #181818;
-    height: 97px; }
-    /* line 485, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    height: 97px;
+    margin-top: -20px; }
+    /* line 488, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     .footerarticlecontain .footerarticle a {
       display: flex;
       flex-direction: row;
@@ -946,14 +1245,73 @@ header .buttonpagebd {
       flex-direction: row;
       color: grey;
       align-items: center; }
-      /* line 493, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 496, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       .footerarticlecontain .footerarticle a:hover {
         color: #FFFFFF; }
-      /* line 497, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      /* line 500, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
       .footerarticlecontain .footerarticle a p, .footerarticlecontain .footerarticle a h3 {
         display: flex;
         flex-direction: row;
         margin: 0px 10px; }
+
+@media screen and (max-width: 767px) {
+  /* line 513, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  #article .headerarticle {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    /* line 514, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    #article .headerarticle #logo21 {
+      margin-left: -121px;
+      margin-bottom: -50px; }
+    /* line 521, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    #article .headerarticle .navbar {
+      display: flex;
+      flex-direction: column;
+      margin-left: 60px;
+      margin-top: -80px;
+      display: flex;
+      flex-direction: column;
+      text-align: right;
+      margin-left: 240px; }
+    /* line 532, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    #article .headerarticle .sabonner {
+      padding-left: 44px; }
+      /* line 534, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+      #article .headerarticle .sabonner .buttonpagearticle {
+        width: 100%;
+        font-size: 14px; }
+  /* line 542, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  #article .mainarticle h3 {
+    margin-left: 20px; }
+  /* line 545, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  #article .mainarticle p {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify; }
+  /* line 551, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  #article .mainarticle .entete h1 {
+    font-size: 60px; }
+  /* line 554, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  #article .mainarticle .entete p {
+    padding-left: 129px;
+    padding-right: 135px;
+    margin-top: -50px;
+    padding-bottom: 250px; }
+  /* line 560, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  #article .mainarticle .entete .titrearticleligne1 {
+    margin-left: 240px; }
+  /* line 563, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  #article .mainarticle .entete .titrearticleligne2 {
+    margin-left: 190px; }
+  /* line 567, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+  #article .mainarticle .part1 {
+    display: flex;
+    flex-direction: column; }
+    /* line 570, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
+    #article .mainarticle .part1 article {
+      padding-left: 0px;
+      padding-right: 270px; } }
 
 /* line 1, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_fondyellow.scss */
 .fondyellow {
@@ -963,7 +1321,7 @@ header .buttonpagebd {
   width: 100%;
   height: auto;
   margin-top: -303px;
-  flex-wrap: wrap; }
+  flex-wrap: nowrap; }
   /* line 9, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_fondyellow.scss */
   .fondyellow .numero57img {
     opacity: 0;
