@@ -58,7 +58,7 @@
 
 /* line 1, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/base/_base.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roslindale Variable','Roslindale'; }
+  font-family: 'Roslindale condense','Roslindale', serif; }
 
 /* line 5, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/base/_base.scss */
 p {
@@ -138,7 +138,7 @@ html,
 
 @font-face {
   src: url("/fonts/roslindale/Roslindale-DisplayCondensedRegular-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayCondensedRegular-Testing.woff") format("woff");
-  font-family: 'Roslindale';
+  font-family: 'Roslindale condense';
   font-style: normal;
   font-weight: normal; }
 
