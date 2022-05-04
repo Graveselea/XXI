@@ -115,19 +115,23 @@
 
 @keyframes pillules {
     0% {
-        transform: translateX(-20%);
+        transform: translateX(-120%);
+        opacity: 0.5;
+      }
+      20%{
+        transform: translateX(-100%);
         opacity: 0.6;
       }
-      25%{
-        transform: translateX(-15%);
+      40%{
+        transform: translateX(-80%);
         opacity: 0.7;
       }
-      50%{
-        transform: translateX(-10%);
+      60%{
+        transform: translateX(-60%);
         opacity: 0.8;
       }
-      75%{
-        transform: translateX (-5%);
+      80%{
+        transform: translateX (-40%);
         opacity: 0.9;
       }
       100% {

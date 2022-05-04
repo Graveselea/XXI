@@ -197,7 +197,12 @@
 
         .part5 {
             margin-top: 30px;
-            margin-bottom: 30px;
+            margin-bottom: 30px;                
+            &:hover {
+                .pillues{
+                    animation: pillules 3s linear forwards ; 
+                    }
+                }
             .guillemets {
                 display: flex;
                 justify-content: center;
@@ -236,10 +241,7 @@
                 position: relative;
                 margin-left: -346px;
                 margin-top: -20px;
-                &:hover {
-                    animation: pillules 5s linear forwards ; 
 
-                }
                 .pillues1 {
                     position: absolute;
                     left: 195px;
@@ -508,7 +510,7 @@
         width: 100%;
         background-color: $color-tertiary;
         height: 97px;
-        margin-top: -20px;
+        margin-top: -30px;
         a {
             display: flex;
             flex-direction: row;
