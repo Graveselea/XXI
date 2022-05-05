@@ -5,4 +5,7 @@
 
 
   
-@import url(//db.onlinewebfonts.com/c/ba2b8f7a1a1b02d9bac815a0040395aa?family=RoslindaleDisplayCondensed);
+  @font-face {
+    font-family: 'Roslindalecondensed';
+    src: local(calibre), url('/fonts/Roslindale2/RoslindaleDisplayCondensed-Regular.otf') format("opentype");
+  }

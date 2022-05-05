@@ -102,7 +102,7 @@
 
 /* line 1, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/base/_base.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roslindale condense','Roslindale', serif; }
+  font-family: 'Roslindalecondensed'; }
 
 /* line 5, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/base/_base.scss */
 p {
@@ -139,311 +139,8 @@ html,
   src: local(calibre), url("/fonts/calibre/CalibreLight.otf") format("opentype"); }
 
 @font-face {
-  font-family: 'Salernomi J';
-  font-style: normal;
-  font-weight: normal;
-  src: local("Salernomi J"), url("/fonts/9SALERNO.woff") format("woff"); }
-
-@font-face {
-  font-family: 'WindsorOpti-LightCondensed';
-  src: url("/fonts/windsor/WindsorOpti-LightCondensed.ttf.woff") format("woff"), url("/fonts/windsor/WindsorOpti-LightCondensed.ttf.svg#WindsorOpti-LightCondensed") format("svg"), url("/fonts/windsor/WindsorOpti-LightCondensed.ttf.eot"), url("/fonts/windsor/WindsorOpti-LightCondensed.ttf.eot?#iefix") format("embedded-opentype");
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: condensed; }
-
-@font-face {
-  font-family: 'OPTIRomanaRoman-Normal';
-  src: url("/fonts/opti/OPTIRomanaRoman-Normal.ttf.woff") format("woff"), url("/fonts/opti/OPTIRomanaRoman-Normal.ttf.svg#OPTIRomanaRoman-Normal") format("svg"), url("/fonts/opti/OPTIRomanaRoman-Normal.ttf.eot"), url("/fonts/opti/OPTIRomanaRoman-Normal.ttf.eot?#iefix") format("embedded-opentype");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  src: url("/fonts/roslindale/RoslindaleVariable-VF-Testing.woff2") format("woff2"), url("/fonts/roslindale/RoslindaleVariable-VF-Testing.woff") format("woff");
-  font-family: 'Roslindale Variable';
-  font-style: normal;
-  font-weight: bold; }
-
-@font-face {
-  src: url("/fonts/roslindale/RoslindaleVariable-VF[Display]-Testing.woff2") format("woff2"), url("/fonts/roslindale/RoslindaleVariable-VF[Display]-Testing.woff") format("woff");
-  font-family: 'Roslindale Variable';
-  font-style: normal;
-  font-weight: bold; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DisplayCondensedExtraLight-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayCondensedExtraLight-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: 200; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DisplayCondensedExtraLightItalic-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayCondensedExtraLightItalic-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: italic;
-  font-weight: 200; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DisplayCondensedLight-Testing.woff2") format("woff2"), url("/fonts/roslindale//Roslindale-DisplayCondensedLight-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: 300; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DisplayCondensedLightItalic-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayCondensedLightItalic-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: italic;
-  font-weight: 300; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DisplayCondensedRegular.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayCondensedRegular.woff") format("woff");
-  font-family: 'Roslindale condense';
-  font-style: normal;
-  font-weight: normal; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DisplayCondensedItalic-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayCondensedItalic-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: italic;
-  font-weight: normal; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DisplayCondensedMedium-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayCondensedMedium-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: 500; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DisplayCondensedMediumItalic-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayCondensedMediumItalic-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: italic;
-  font-weight: 500; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DisplayCondensedSemiBold-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayCondensedSemiBold-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: 600; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DisplayCondensedSemiBoldItalic-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayCondensedSemiBoldItalic-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: italic;
-  font-weight: 600; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DisplayCondensedBold-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayCondensedBold-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: normal; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DisplayCondensedBoldItalic-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayCondensedBoldItalic-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: italic;
-  font-weight: normal; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DisplayCondensedBlack-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayCondensedBlack-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: 800; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DisplayCondensedUltra-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayCondensedUltra-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: normal; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DisplayNarrowExtraLight-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayNarrowExtraLight-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: 200; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DisplayNarrowLight-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayNarrowLight-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: 300; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DisplayNarrowRegular-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayNarrowRegular-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: normal; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DisplayNarrowMedium-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayNarrowMedium-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: 500; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DisplayNarrowSemiBold-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayNarrowSemiBold-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: 600; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DisplayNarrowBold-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayNarrowBold-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: normal; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DisplayNarrowBlack-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayNarrowBlack-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: 800; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DisplayNarrowUltra-Testing.woff2") format("woff2"), url("/fonts/roslindale//Roslindale-DisplayNarrowUltra-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: normal; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DisplayExtraLight-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayExtraLight-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: 200; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DisplayLight-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayLight-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: 300; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DisplayRegular-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayRegular-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: normal; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DisplayMedium-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayMedium-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: 500; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DisplaySemiBold-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplaySemiBold-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: 600; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DisplayBold-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayBold-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: normal; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DisplayBlack-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayBlack-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: 800; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DisplayUltra-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DisplayUltra-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: 900; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DeckNarrowRegular-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DeckNarrowRegular-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: normal; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DeckNarrowItalic-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DeckNarrowItalic-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: italic;
-  font-weight: normal; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DeckNarrowMedium-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DeckNarrowMedium-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: 500; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DeckNarrowMediumItalic-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DeckNarrowMediumItalic-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: italic;
-  font-weight: 500; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DeckNarrowSemiBold-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DeckNarrowSemiBold-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: 600; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DeckNarrowSemiBoldItalic-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DeckNarrowSemiBoldItalic-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: italic;
-  font-weight: 600; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DeckNarrowBold-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DeckNarrowBold-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: normal; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-DeckNarrowBoldItalic-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-DeckNarrowBoldItalic-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: italic;
-  font-weight: normal; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-TextRegular-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-TextRegular-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: normal; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-TextItalic-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-TextItalic-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: italic;
-  font-weight: normal; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-TextMedium-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-TextMedium-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: 500; }
-
-@font-face {
-  src: url("/fonts/roslindale//Roslindale-TextMediumItalic-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-TextMediumItalic-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: italic;
-  font-weight: 500; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-TextSemiBold-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-TextSemiBold-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: 600; }
-
-@font-face {
-  src: url("/fonts/roslindale//Roslindale-TextSemiBoldItalic-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-TextSemiBoldItalic-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: italic;
-  font-weight: 600; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-TextBold-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-TextBold-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: normal;
-  font-weight: normal; }
-
-@font-face {
-  src: url("/fonts/roslindale/Roslindale-TextBoldItalic-Testing.woff2") format("woff2"), url("/fonts/roslindale/Roslindale-TextBoldItalic-Testing.woff") format("woff");
-  font-family: 'Roslindale';
-  font-style: italic;
-  font-weight: normal; }
+  font-family: 'Roslindalecondensed';
+  src: local(calibre), url("/fonts/Roslindale2/RoslindaleDisplayCondensed-Regular.otf") format("opentype"); }
 
 /* line 1, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
 header {
@@ -499,7 +196,7 @@ header {
     bottom: 8.33%;
     color: #181818; }
   /* line 58, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
-  header button {
+  header .buttonpageindex {
     background: #F2F2F4;
     border: 1px solid #181818;
     box-sizing: border-box;
@@ -514,7 +211,7 @@ header {
     font-weight: 700;
     box-shadow: 5px 5px #181818; }
     /* line 165, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/utils/_mixins.scss */
-    header button:active {
+    header .buttonpageindex:active {
       animation: clickbutton 0.1s;
       animation-fill-mode: forwards; }
   /* line 61, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
@@ -861,7 +558,7 @@ header .buttonpagebd {
     margin-right: auto; }
     /* line 22, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main article p {
-      font-family: 'Roslindale condense','Roslindale', serif;
+      font-family: 'Roslindalecondensed';
       font-style: normal;
       font-weight: 400;
       font-size: 15px;
@@ -1001,7 +698,7 @@ header .buttonpagebd {
         position: absolute;
         z-index: 1;
         color: white;
-        font-family: 'Roslindale condense','Roslindale', serif;
+        font-family: 'Roslindalecondensed';
         font-style: normal;
         font-weight: 500;
         font-size: 31px;
@@ -1065,7 +762,7 @@ header .buttonpagebd {
         margin-right: -426px; }
     /* line 221, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part5 h2 {
-      font-family: 'Roslindale condense','Roslindale', serif;
+      font-family: 'Roslindalecondensed';
       font-style: normal;
       font-weight: 500;
       font-size: 100px;
@@ -1185,7 +882,7 @@ header .buttonpagebd {
           margin-top: 20px; }
         /* line 341, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
         #article main .part8 aside .alireaussi .alireaussidescription h5 {
-          font-family: 'Roslindale condense','Roslindale', serif;
+          font-family: 'Roslindalecondensed';
           font-style: normal;
           font-weight: 400;
           font-size: 20px;
@@ -1207,7 +904,7 @@ header .buttonpagebd {
       margin-bottom: 100px; }
     /* line 367, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
     #article main .part9 h2 {
-      font-family: 'Roslindale condense','Roslindale', serif;
+      font-family: 'Roslindalecondensed';
       font-style: normal;
       font-weight: 500;
       font-size: 100px;
@@ -1287,7 +984,7 @@ header .buttonpagebd {
   background-color: white; }
   /* line 453, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/pages/_articlenotrecorps.scss */
   .part12 h2 {
-    font-family: 'Roslindale condense','Roslindale', serif;
+    font-family: 'Roslindalecondensed';
     font-style: normal;
     font-weight: 500;
     font-size: 130px;
