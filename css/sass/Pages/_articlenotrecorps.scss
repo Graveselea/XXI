@@ -20,7 +20,7 @@
             margin-left: auto;
             margin-right: auto;
             p {
-                font-family: 'Roslindalecondensed';
+                font-family: "RoslindaleDisplayCondensed Medium";
                 font-style: normal;
                 font-weight: 400;
                 font-size: 15px;
@@ -36,7 +36,7 @@
             align-items: center; 
             width: 100%;
             .titrearticleligne1 {
-                margin-left: 150px;
+                margin-left: 138px;
             }
             h1 {
             font-style: normal;
@@ -76,9 +76,9 @@
             display: flex;
             flex-direction: row;
             margin-top: 100px;
-            width: 100%;
+            
             article {
-            margin-right: 390px;
+            margin-right: 323px;
         }
             aside {
                 position: relative;
@@ -86,7 +86,7 @@
                 display: flex;
                 flex-direction: column;
                 margin-top: 30px;
-                margin-left: 50px;
+                margin-left: auto;
                 .journalist {
                     display: flex;
                     flex-direction: row;
@@ -116,7 +116,7 @@
             margin-bottom: 30px;
             width: 100%;
             h3 {
-                font-family: 'Calibre';
+                font-family: "Calibre";
                 font-style: normal;
                 font-weight: 700;
                 font-size: 31px;
@@ -130,7 +130,7 @@
             flex-direction: row;
             width: 100%;
             p {
-                font-family: 'Calibre';
+                font-family: "Calibre";
                 font-style: normal;
                 font-weight: 400;
                 font-size: 17px;
@@ -146,6 +146,7 @@
             flex-direction: row;
             margin-top: 30px;
             margin-bottom: 30px;
+            margin-left: -332px;
             aside {
                 margin-top: 30px;
                 position: relative;
@@ -163,7 +164,7 @@
                     position: absolute;
                     z-index: 1;
                     color: white;
-                    font-family: 'Roslindalecondensed';
+                    font-family: "RoslindaleDisplayCondensed Medium";
                     font-style: normal;
                     font-weight: 500;
                     font-size: 31px;
@@ -175,7 +176,7 @@
                     z-index: 1;
                     top: 80px;
                     color: white;
-                    font-family: 'Calibre';
+                    font-family: "Calibre";
                     font-style: normal;
                     font-weight: 400;
                     font-size: 17px;
@@ -219,7 +220,7 @@
                         }
                 }
             h2 {
-                font-family: 'Roslindalecondensed';
+                font-family: "RoslindaleDisplayCondensed Medium";
                 font-style: normal;
                 font-weight: 500;
                 font-size: 100px;
@@ -228,7 +229,7 @@
                 margin-left: -350px;
             }
             p{
-                font-family: 'Calibre';
+                font-family: "Calibre";
                 font-style: normal;
                 font-weight: 700;
                 font-size: 17px;
@@ -275,7 +276,7 @@
             margin-top: 30px;
             margin-bottom: 30px;
             h3 {
-                font-family: 'Calibre';
+                font-family: "Calibre";
                 font-style: normal;
                 font-weight: 700;
                 font-size: 31px;
@@ -294,7 +295,7 @@
             
             }
             p {
-                font-family: 'Calibre';
+                font-family: "Calibre";
                 font-style: normal;
                 font-weight: 400;
                 font-size: 17px;
@@ -339,7 +340,7 @@
                     }
 
                     h5{
-                        font-family: 'Roslindalecondensed';
+                        font-family: "RoslindaleDisplayCondensed Medium";
                         font-style: normal;
                         font-weight: 400;
                         font-size: 20px;
@@ -365,14 +366,14 @@
                     margin-bottom: 100px;
                 }
                 h2{
-                    font-family: 'Roslindalecondensed';
+                    font-family: "RoslindaleDisplayCondensed Medium";
                     font-style: normal;
                     font-weight: 500;
                     font-size: 100px;
                     line-height: 100%;
                 }
                 p{
-                    font-family: 'Calibre';
+                    font-family: "Calibre";
                     font-style: normal;
                     font-weight: 700;
                     font-size: 17px;
@@ -451,7 +452,7 @@
             background-color: white;
 
             h2 {
-                font-family: 'Roslindalecondensed';
+                font-family: "RoslindaleDisplayCondensed Medium";
                 font-style: normal;
             font-weight: 500;
             font-size: 130px;
@@ -593,9 +594,15 @@
          .part1 {
         display: flex;
         flex-direction: column;
+        aside {
+            margin-right: 220px;
+            margin-bottom: 40px;
+            
+        }
         article {
-            padding-left: 0px;
-            padding-right: 270px;
+            padding-left: 187px;
+            padding-right: 85px;
+            margin-right: 90px;
             }
         }
         .part2 {
