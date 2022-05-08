@@ -1,11 +1,4 @@
-@font-face {
-    font-family: 'Calibre';
-    src: local(calibre), url('/fonts/calibre/CalibreLight.otf') format("opentype");
-  }
-
-
+@import url('http://fonts.cdnfonts.com/css/calibre');
   
-  @font-face {
-    font-family: 'Roslindalecondensed';
-    src: local(calibre), url('/fonts/Roslindale2/RoslindaleDisplayCondensed-Regular.otf') format("opentype");
-  }
+@import url(//db.onlinewebfonts.com/c/5f4806cc2d90f5be2b4c2e26b13adcd2?family=RoslindaleDisplayCondensed+Medium);
+@font-face {font-family: "RoslindaleDisplayCondensed Medium"; src: url("//db.onlinewebfonts.com/t/5f4806cc2d90f5be2b4c2e26b13adcd2.eot"); src: url("//db.onlinewebfonts.com/t/5f4806cc2d90f5be2b4c2e26b13adcd2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5f4806cc2d90f5be2b4c2e26b13adcd2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5f4806cc2d90f5be2b4c2e26b13adcd2.woff") format("woff"), url("//db.onlinewebfonts.com/t/5f4806cc2d90f5be2b4c2e26b13adcd2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5f4806cc2d90f5be2b4c2e26b13adcd2.svg#RoslindaleDisplayCondensed Medium") format("svg"); } 

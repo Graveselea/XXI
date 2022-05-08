@@ -2,6 +2,7 @@
 /* color */
 /* animation menu */
 /* animation loader */
+@import url("http://fonts.cdnfonts.com/css/calibre");
 @keyframes opacity-1 {
   from {
     transform: translate3d(0, 100px, 0); }
@@ -135,12 +136,8 @@ html,
   scroll-behavior: smooth; }
 
 @font-face {
-  font-family: 'Calibre';
-  src: local(calibre), url("/fonts/calibre/CalibreLight.otf") format("opentype"); }
-
-@font-face {
   font-family: 'Roslindalecondensed';
-  src: local(calibre), url("/fonts/Roslindale2/RoslindaleDisplayCondensed-Regular.otf") format("opentype"); }
+  src: url("/fonts/Roslindale2/RoslindaleDisplayCondensed-Regular.otf") format("opentype"); }
 
 /* line 1, ../../../../../Users/eleagravagna/Documents/cosavostra/XXI/css/sass/layout/_header.scss */
 header {
